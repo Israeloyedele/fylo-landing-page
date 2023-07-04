@@ -26,8 +26,8 @@ form2.addEventListener("submit", function(e){
         email2.classList.add('invalid');
         label2.classList.add('invalid');
     } else {
-        email1.classList.remove('invalid');
-        label1.classList.remove('invalid'); 
+        email2.classList.remove('invalid');
+        label2.classList.remove('invalid'); 
     }
      
 });
